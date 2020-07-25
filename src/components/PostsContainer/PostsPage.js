@@ -12,7 +12,7 @@ const PostsPage = () => {
   return (
     <div className="posts-container-wrapper">
       {instaFeed.map((postObj, index) => {
-        return <Post key={index} instaPost={postObj} />
+        return <Post key={index} post={postObj} />
       })}
     </div>
   );

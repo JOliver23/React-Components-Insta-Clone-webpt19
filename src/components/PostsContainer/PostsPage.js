@@ -7,7 +7,7 @@ import dummyData from '../../dummy-data';
 
 const PostsPage = () => {
   // set up state for your data
-  const [instaFeed, setInstaFeed] = useState(dummyData);
+  const [instaFeed] = useState(dummyData);
 
   return (
     <div className="posts-container-wrapper">

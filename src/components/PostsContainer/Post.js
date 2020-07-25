@@ -9,8 +9,8 @@ import "./Posts.css";
 // pass props in this file to
 const Post = props => {
   // set up state for the likes
-  console.log("jo: Post Container: Post.js: props: ", props)
-  const [likes, setLikes] = useState(props.post.likes)
+  //console.log("jo: Post Container: Post.js: props: ", props)
+  const [likes] = useState(props.post.likes)
 
   return (
     <div className="post-border">
